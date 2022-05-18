@@ -3,3 +3,146 @@
     src: url("fonts/Arapey-Regular.ttf");
     font-weight: 400;
   }
+  html {
+    scroll-behavior: smooth;
+    }
+
+  body, html, li, ul, div, p, button, input  {
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+margin-block-start: 0px;
+margin-block-end: 0px;
+}
+
+ul {
+    padding-inline-start: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+h1, h2, h3 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+button {
+    border-width: unset;
+    border-style: unset;
+    border-color: unset;
+    background-color: unset;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    transition: 1s;
+}
+
+
+  body {
+    max-width: 1440px;
+  }
+
+ 
+.header_wrapper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  margin: 0 auto;
+
+}
+  .header_title {
+    text-align: center;
+    font-family: 'Arapey';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    color: #9DB0D1;
+    padding-top: 100px;
+   
+  }
+
+  .header_description {
+    padding-top: 52px;
+    padding-bottom: 48px;
+  max-width: 950px;
+    text-align: center;
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+  }
+
+  .button {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px 50px;
+gap: 10px;
+text-transform: uppercase;
+font-family: 'Arapey';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 32px;
+/* identical to box height, or 107% */
+
+text-align: center;
+
+  }
+
+   .get_started_button {
+     color: #FFFFFF;
+     background: #EBAC87;
+border-radius: 10px;
+margin-bottom: 50px;
+   }
+
+   .marks_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .mark_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  .mark_item:first-child {
+    margin-left: 0px;
+  }
+
+   .mark {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     background: #9DB0D1;
+   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 15px;
+   }
+
+   .mark_description {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+   }
