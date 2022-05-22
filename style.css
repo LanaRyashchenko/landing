@@ -107,6 +107,7 @@ text-align: center;
      background: #EBAC87;
 border-radius: 10px;
 margin-bottom: 50px;
+margin-left: 41px;
    }
 
    .marks_list {
@@ -114,6 +115,7 @@ margin-bottom: 50px;
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
+    margin-bottom: 48px;
   }
 
   .mark_item {
@@ -146,3 +148,84 @@ margin-bottom: 50px;
     font-size: 20px;
     line-height: 24px;
    }
+
+
+   /*MAIN*/
+   .main_wrapper {
+   background-color: #87C6EB;
+
+   }
+
+   .cards_list {
+    list-style-type: none;
+   max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+   }
+
+
+
+
+  .main_title {
+     background: url(img/clouds.png) repeat-x top / auto 200px,
+   linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+ padding: 250px 120px 50px;
+ font-family: 'Arapey';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+text-align: center;
+
+}
+
+.card {
+  background: #FFFFFF;
+border-radius: 10px;
+padding: 20px 20px 0px;
+}
+
+
+.card_number {
+  height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     background: rgba(235, 172, 135, 0.4);
+     font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card_img {
+  width: 310px;
+  height: 310px;
+  background-color: #EBAC87;
+  margin: 10px 0px 20px;
+}
+.card_description {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  max-width: 260px;
+  margin-bottom: 20px;
+}
+.card_1 {
+  background: rgba(235, 172, 135, 0.4);
+}
+.card_2 {
+  background: rgba(235, 172, 135, 0.6);
+}
+.card_3 {
+  background: #EBAC87;
+}
