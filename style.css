@@ -96,8 +96,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 32px;
-/* identical to box height, or 107% */
-
+border-radius: 10px;
 text-align: center;
 
   }
@@ -228,4 +227,89 @@ align-items: center;
 }
 .card_3 {
   background: #EBAC87;
+}
+
+.checkin {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: url(svg/big_mountain.svg) no-repeat right;
+  position: relative;
+  padding-bottom: 50px;
+  
+}
+
+.checkin_title {
+  max-width: 40%;
+font-family: 'Arapey';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 44px;
+
+color: #FFFFFF;
+padding: 40px 0px 50px;
+}
+
+.checkin_text {
+  font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+max-width: 48%;
+padding-bottom: 50px;
+}
+
+.checkin_button {
+  color: #EBAC87;
+  background: #FFFFFF;
+
+}
+
+.question_button {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: #EBAC87;
+  color: #FFFFFF;
+  font-family: 'Verdana';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 73px;
+border-radius: 50%;
+
+}
+
+.footer_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_button {
+  color: #FFFFFF;
+     background: #EBAC87;
+margin: 50px 0px;
+}
+
+.social_icon {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+margin-right: 17px;
+align-items: center;
+
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  padding-left: 36px;
+  
 }
