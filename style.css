@@ -81,11 +81,9 @@ line-height: 24px;
   }
 
   .button {
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
+   
 padding: 24px 50px;
-gap: 10px;
+
 text-transform: uppercase;
 font-family: 'Arapey';
 font-style: normal;
@@ -93,7 +91,7 @@ font-weight: 400;
 font-size: 30px;
 line-height: 32px;
 border-radius: 10px;
-text-align: center;
+
 
   }
 
@@ -298,11 +296,8 @@ margin: 50px 0px;
 
 .social_icon {
 display: flex;
-flex-direction: row;
 list-style-type: none;
-margin-right: 17px;
 align-items: center;
-
 }
 
 .icon {
