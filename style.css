@@ -46,6 +46,7 @@ button {
     transition: 1s;
 }
 
+
  
 .header_wrapper {
 
@@ -101,13 +102,12 @@ text-align: center;
      background: #EBAC87;
 border-radius: 10px;
 margin-bottom: 50px;
-margin-left: 41px;
+
    }
 
    .marks_list {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
     list-style-type: none;
     margin-bottom: 48px;
   }
@@ -152,14 +152,13 @@ margin-left: 41px;
 
    .cards_list {
     list-style-type: none;
-   max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 35px;
+    justify-content: center;
    }
 
+   
 
+ 
 
 
   .main_title {
@@ -179,8 +178,12 @@ text-align: center;
   background: #FFFFFF;
 border-radius: 10px;
 padding: 20px 20px 0px;
+margin: 0px 0px 35px 75px;
 }
 
+.card:first-child {
+  margin-left: 0px;
+}
 
 .card_number {
   height: 60px;
